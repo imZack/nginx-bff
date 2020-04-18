@@ -1,0 +1,22 @@
+{
+    "endpoints": {
+        "opcuaConfig": {
+            "endpoint": "http://www.mocky.io/v2/5e9a7d32330000b7c77b3015",
+            "headers": {
+                "mx-api-token": ""
+            }
+        },
+        "opcuaSecurity": {
+            "endpoint": "http://www.mocky.io/v2/5e9a7d7333000021bf7b3016",
+            "headers": {
+                "mx-api-token": ""
+            }
+        }
+    },
+    "transform": {
+        "method": "jq",
+        "data": {
+            "filter": "add"
+        }
+    }
+}
